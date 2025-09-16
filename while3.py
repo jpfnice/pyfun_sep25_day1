@@ -9,13 +9,17 @@ while boolean condition:
 
 """
 
-nb=50
 
-while nb > 0:
-    print(nb)
-    nb=nb-1
-    if nb==40:
-        break # leave this while loop now !
+while True:
+    
+    nb=input("Enter an int: ")
+    nb=int(nb)
+    
+    print("nb is",nb, "nb**3 is", nb**3)
+    
+    ok=input("Ok to continue (Y/N) ? ")
+    if ok == "N": # if ok is equal to "N"
+        break
     
 print("The end")
     

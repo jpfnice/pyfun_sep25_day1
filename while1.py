@@ -6,7 +6,7 @@ while boolean condition:
 
 """
 
-nb=50
+nb=5
 
 while nb > 0:
     print(nb)

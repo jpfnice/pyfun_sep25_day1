@@ -1,15 +1,18 @@
-# 12 and 3 are two "int"
-# anumber = 12*3  ; pi=3.14
-anumber = 12*3  
-pi=3.14
-print("The variable anumber is", anumber)
-print("The value of pi is", pi)
 
-print("The type of anumber is", type(anumber))
+nb=3*45 # this a variable definition
 
-anumber = 4.5 * 3
+print("The variable nb is", nb, "the end") # this is a function call
 
-print("The type of anumber is", type(anumber))
+name="Jean-Philippe"
 
-anumber="Hello"
-print("The type of anumber is", type(anumber))
+print("name is", name)
+
+nb=nb - 2
+
+print(nb)
+
+name="Jean-Philippe " + str(nb)
+print(name)
+
+name="Jean" * 4
+print(name)

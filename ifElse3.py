@@ -24,7 +24,7 @@ if num > 0: # > < >= <= == !=  ...
     print(num, "is positive")
 elif num < 0:
     print(num, "is negative")
-elif num == 0:
+elif num == 0: # or simply else: is you prefer ...
     print(num, "is zero")
     
 print("The end")

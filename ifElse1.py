@@ -1,3 +1,4 @@
+
 """
 if boolean condition:
     statement 1
@@ -10,5 +11,4 @@ num=int(num)
 
 if num > 0: # > < >= <= == !=  ...
     print(num, "is positive")
-    
-print("The end")
+    print("The end")
